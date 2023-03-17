@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="logistic.css">
+  
+</head>
+
+<body>
+    <div class="span">
+        <h6 id="caption"> faster secure reliable</h6>
+        <h1 id="heading"><u>welcome to superfast logistic</u></h1><br>
+        <!-- <div id="blank">   </div><br> -->
+        <a href="#">track the package</a>
+        <a href="#">send package</a>
+        <a href="#">log in/sign up</a>
+        <a href="#">contect us</a>
+        <a href="#">privacy policy</a>
+        <input type="search" placeholder="search inside" class="span ">
+        <button>search</button>
+    </div>
+    <form id="form" form action="backend.php" form method="post">
+        tracking number:<input type="text" name="" id="" placeholder="please enter the 6 digit tracking number" maxlength="6" >
+
+
+        <button>track</button>
+    </form>
+    <hr id="hr">
+    
+        <h4 style="font-size:30px ; text-align: center; margin: 0%; background-color: chartreuse;"> send the package</h4>
+        <hr id="hr"> 
+        <div id="spkt" >
+        <form id="spktd" autocomplete="on" form action="#.php">
+            enter your reciver name:<input type="text" placeholder="enter  your name"><br>
+            enter your reciver mobile number:<input type="tel" placeholder="enter  your mobile number" maxlength="10"><br>
+
+            select item pickup date:<input type="date" placeholder="select the date"><br>
+            select item pickup date:<input type="time" placeholder="select the date"><br>
+
+
+
+
+            select the destination state <select name="state" id=state" tabindex="-1">
+                <option value="no -one"> ---</option>
+                <option value="gujrat">gujrat</option>
+                <option value="others">others</option>
+            </select><br>
+
+            select the  destination city: <select name="mycity" id="city">
+                <option value="no -one"> ---</option>
+                <option value="jamnager">jamnager</option>
+                <option value="rajkot">rajkot</option>
+                <option value="ahmadabad">ahmadabad </option>
+                <option value="surat">surat</option>
+                <option value="delhi">delhi</option>
+                <option value="mumbai">mumbai</option>
+                <option value="bhavnager">bhavnager</option>
+                <option value="kutch">kutch</option>
+                <option value="patna">patna</option>
+                <option value="botad">botad</option>
+                <option value="morbi">morbi</option>
+            </select><br>
+            enter reciver address:<input type="textarea" id="adr" placeholder="enter  your address"><br><br>
+          reciver  pincode number:<input type="text" name="" id="" placeholder="please enter the 6 digit pincode number" maxlength="6" >
+
+            <input type="submit" >
+        
+
+        </form>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

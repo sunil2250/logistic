@@ -1,0 +1,119 @@
+body {
+    background-color: aquamarine;
+    border: 2px solid red;
+    width: auto;
+    height: 1400px;
+
+}
+
+.span {
+    color: white;
+    border: 5px solid red;
+    border-radius: 25px;
+
+    display: inline-block;
+    width: 1890px;
+
+    margin: auto;
+
+    float: left;
+
+    text-align: center;
+
+    background-color: black;
+
+}
+
+.span a {
+    color: white;
+    background-color: black;
+    margin-left: 10%;
+    font-size: 25px;
+    border: 2px solid yellow;
+    float: left;
+
+}
+
+.span input {
+    width: 200px;
+    font-size: large;
+
+    float: right;
+    border: yellow solid 2.5px;
+
+    background-color: black;
+    color: white;
+    border-radius: 1cm;
+}
+
+#caption {
+    font-size: 20px;
+    /* border: 2px solid skyblue; */
+    width: 100x;
+    margin: auto;
+    display: inline;
+    word-spacing: 13.5cm;
+    /* border-radius: 15px; */
+    /* text margin-left: 20%; */
+
+
+
+}
+
+#heading {
+    border: 2px solid skyblue;
+    width: 50;
+    padding: 100cm;
+    
+    margin: auto;
+    border-radius: 15px;
+
+
+}
+
+#form {
+    margin: auto;
+    display: block;
+    float: inline-end;
+    margin-top: 10%;
+    width: 1890px;
+    margin-bottom: 1%;
+
+
+    background-color: yellow;
+    text-align: center;
+    border-radius: 1cm;
+}
+
+#spkt {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 1890px;
+    margin: auto;
+    border: 2px solid green;
+    border-radius: 1cm;
+
+
+
+}
+
+/* #div{ */
+/* background-color: blue; */
+/* } */
+
+
+/* .button */
+/* { */
+/* background-color:black; */
+/* color: aquamarine */
+#hr {
+    border: 5px solid blue;
+}
+
+#adr {
+
+    width: 300px;
+    height: 100px;
+}
